@@ -25,8 +25,16 @@ header {
     padding: 30px 10%;    
 }
 
+img {
+    height: 200px;
+    transform: rotate(90deg);
+    margin-top: 20px;
+    
+}
+
 .logo {
     cursor: pointer;
+    
 }
 
 .nav__links {
@@ -54,7 +62,7 @@ button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
